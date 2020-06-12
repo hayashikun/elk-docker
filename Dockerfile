@@ -21,6 +21,6 @@ RUN tar xvf elk-6.3.2.tgz \
     && rm -rf elk-6.3.2.tgz
 COPY res/make.inc ./elk-6.3.2
 RUN cd elk-6.3.2/ && make
-ENV ELK /usr/local/src/elk-6.3.2/src/elk
+ENV ELK_DIR /usr/local/src/elk-6.3.2/src/
 
 WORKDIR /root

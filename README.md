@@ -1,11 +1,6 @@
 # Elk
 ## Docker image
 
-### Pull
-```sh
-$ docker pull haya4kun/elk
-```
-
 ### Build
 ```sh
 $ docker build -f Dockerfile .
